@@ -9,7 +9,7 @@ export default function BrandLogo() {
         absoluteStrokeWidth
         className="h-8 w-8 lg:h-9 lg:w-9"
       />
-      <p className="mb-2 text-xl font-bold lg:mb-1 lg:text-2xl">ChipiChat</p>
+      <p className="mb-2 text-xl font-bold lg:mb-1 lg:text-2xl">ChipiTalks</p>
     </Link>
   );
 }

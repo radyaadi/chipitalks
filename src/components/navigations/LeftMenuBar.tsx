@@ -12,7 +12,7 @@ export default function LeftMenuBar() {
           className="flex w-full flex-col items-center gap-x-2 gap-y-1 rounded-md p-2 hover:bg-[#31353f] lg:px-4 2xl:w-full 2xl:flex-row"
         >
           <MessageSquareHeart size={30} strokeWidth={2} absoluteStrokeWidth />
-          <p className="mb-1 hidden text-xl font-bold 2xl:block">ChipiChat</p>
+          <p className="mb-1 hidden text-xl font-bold 2xl:block">ChipiTalks</p>
         </Link>
         <div className="flex w-full flex-col items-center gap-y-4 xl:items-start">
           <NavLink />
