@@ -32,7 +32,7 @@ export default function DeletePostButton({
           <Trash size={18} absoluteStrokeWidth /> Delete
         </button>
       </DialogTrigger>
-      <DialogContent className="bg-w-background max-w-80">
+      <DialogContent className="max-w-80 bg-[#1f1f23]">
         <DialogHeader>
           <DialogTitle className="text-md mb-2 text-center">
             Are you sure to delete this post?

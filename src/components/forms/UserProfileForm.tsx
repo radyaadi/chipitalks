@@ -114,7 +114,7 @@ export default function UserProfileForm({
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="my-2 flex flex-col gap-y-4"
+        className="my-2 flex flex-col gap-y-4 overflow-y-auto"
       >
         <FormField
           control={form.control}
@@ -189,11 +189,7 @@ export default function UserProfileForm({
             <FormItem>
               <FormLabel>Bio</FormLabel>
               <FormControl>
-                <Textarea
-                  className="max-h-28 border-[#414853]"
-                  rows={3}
-                  {...field}
-                />
+                <Textarea className="border-[#414853]" rows={3} {...field} />
               </FormControl>
               <FormMessage />
             </FormItem>

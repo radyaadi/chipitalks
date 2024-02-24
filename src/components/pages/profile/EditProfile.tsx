@@ -58,7 +58,7 @@ export default function EditProfile({
               <p className="hidden sm:block">Edit Profile</p>
             </Button>
           </DialogTrigger>
-          <DialogContent className="h-fit w-full border-[#414853] bg-[#1f1f23] p-10 sm:max-w-xl">
+          <DialogContent className="over h-fit w-full border-[#414853] bg-[#1f1f23] p-10 sm:max-w-xl ">
             <DialogHeader>
               <DialogTitle className="">Edit Profile</DialogTitle>
             </DialogHeader>

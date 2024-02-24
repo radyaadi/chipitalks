@@ -30,7 +30,7 @@ export default function LikeButton({
         fill={currentUserLiked ? "#ef4444" : "transparent"}
         strokeWidth={1.9}
         width={21}
-        className={`${currentUserLiked ? "text-[#ef4444]" : "text-primary hover:text-gray-400"} cursor-pointer duration-75 ease-in-out `}
+        className={`${currentUserLiked ? "text-[#ef4444]" : "text-[#909098] hover:text-white"} cursor-pointer duration-75 ease-in-out `}
         onClick={onLikeHandle}
       />
     </>

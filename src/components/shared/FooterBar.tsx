@@ -15,7 +15,7 @@ export default function FooterBar() {
         </Link>
         . The source code available on{" "}
         <Link
-          href="https://radya-profiles.netlify.app/"
+          href="https://github.com/radyaadi/chipitalks"
           rel="noopener noreferrer"
           target="_blank"
           className="underline underline-offset-1  hover:text-white"
